@@ -1,0 +1,67 @@
+ol{
+    border: 2px solid black; /*border*/
+    width: 250px; /* širina*/
+    padding: 5px; /*ispunjenje*/
+}
+
+li{ 
+    margin-bottom: 5px; /*margina*/
+    padding: 3px 3px 3px 34px;
+    list-style-position: inside;
+}
+
+li:nth-of-type(1){
+    background-image: url("en-GB.png");
+    background-repeat: no-repeat;
+    background-position: 5px center; 
+    background-color: rgba(0, 255, 0, 0.75); 
+}
+
+li:nth-of-type(2){
+    background-image: url("es.png");/*slika se dodaje na no reapear i pozadina je u boji s prozirnoscu*/
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+li:nth-of-type(3){
+    background-image: url("de.png");
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-color: rgba(255, 0, 0, 0.25);
+}
+
+li:nth-of-type(4){
+    background-image: url("es.png");
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+li:nth-of-type(5){
+    background-image: url("de.png");
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-color: rgba(255, 0, 0, 0.25);
+}
+
+li:nth-of-type(6){
+    margin-bottom: 0%;    
+    background-image: url("en-GB.png");
+    background-repeat: no-repeat;
+    background-position: 5px center; 
+    background-color: rgba(0, 255, 0, 0.75);
+}
+
+/*stavlja slova u crno*/
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+/*mišom ih prebacuje u crveno, podcrtava i stavlja na uppercase*/
+a:hover {
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
